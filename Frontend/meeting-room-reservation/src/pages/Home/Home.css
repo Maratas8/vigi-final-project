@@ -1,0 +1,21 @@
+h1 {
+  margin: 5rem 0 3rem;
+  text-align: center;
+}
+
+#links {
+  display: flex;
+  justify-content: center;
+  margin: 5rem auto;
+}
+
+@media only screen and (max-width: 600px) {
+  #links {
+    flex-direction: column;
+    max-width: 200px;
+  }
+
+  a {
+    margin-bottom: 1rem;
+  }
+}

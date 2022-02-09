@@ -1,0 +1,44 @@
+table {
+  border: 1px solid rgb(22, 178, 251);
+  border-collapse: collapse;
+  text-align: center;
+  width: 60%;
+  margin: 3rem auto;
+}
+
+th, td {
+  border: 1px solid rgb(22, 178, 251);
+  padding: 0.5rem 1rem;
+}
+
+tbody > tr:hover {
+  background-color: rgb(22, 178, 251);
+  cursor: pointer;
+}
+
+.past {
+  opacity: 20%;
+}
+
+.loading {
+  width: 600px;
+  margin: 5rem auto;
+}
+
+.loading > img{
+  width: 600px;
+}
+
+@media only screen and (max-width: 600px) {
+  .loading {
+    width: 200px;
+  }
+
+  .loading > img{
+    width: 200px;
+  }  
+
+  th, td {
+    padding: 0.3rem 0.5rem;
+  }
+}

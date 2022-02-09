@@ -1,0 +1,49 @@
+#header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px rgb(22, 178, 251) solid;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+
+}
+
+#nav>a {
+  text-decoration: none;
+  color: rgb(22, 178, 251);
+  font-size: large;
+  padding: 0 1rem;
+  border: solid 1px rgb(214, 242, 255);
+  border-radius: 5px;
+}
+
+img {
+  width: 100px;
+}
+
+#nav :hover {
+  border: solid 1px rgb(22, 178, 251);
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(22, 178, 251);
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 10px;
+  }
+
+  img {
+    width: 40px;
+  }
+
+  #nav>a {
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  
+}

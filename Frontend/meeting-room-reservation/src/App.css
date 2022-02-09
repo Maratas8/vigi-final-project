@@ -1,0 +1,18 @@
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: rgb(214, 242, 255);
+}
+
+.page-title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    max-width: 600px;
+  }
+
+}

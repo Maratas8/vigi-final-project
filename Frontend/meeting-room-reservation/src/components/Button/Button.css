@@ -1,0 +1,30 @@
+.blue {
+  width: 200px;
+  padding: 1rem 3rem;
+  background-color: rgb(22, 178, 251);
+  border: solid 1px rgb(22, 178, 251);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  margin: 0 0.5rem;
+}
+
+.white {
+  width: 200px;
+  padding: 1rem 3rem;
+  background-color: white;
+  border: solid 1px rgb(22, 178, 251);
+  border-radius: 5px;
+  color: rgb(22, 178, 251);
+  font-weight: bold;
+  margin: 0 0.5rem;
+}
+
+.blue:hover {
+  background-color: rgb(136, 217, 255);
+}
+
+.white:hover {
+  background-color: rgb(136, 217, 255);
+}
+
